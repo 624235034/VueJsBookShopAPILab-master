@@ -255,6 +255,7 @@ app.post(apiversion + '/auth/register', (req, res) => {
 
   let user={
       username: req.body.username,
+
       role: req.body.role,
       password: hashedPassword,
   }
